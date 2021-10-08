@@ -71,3 +71,6 @@ function getDetailsAgain() {
 
 const detailsAgain = getDetailsAgain();
 console.log(detailsAgain)
+
+
+// ignore. nodig voor nieuwe commit //
