@@ -17,7 +17,14 @@ console.log(result);
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
+function greeter (a, b) {
+  return Hoi + a;
+}
 
+const name = greeter(Jan, Kees);
+console.log(name);
+
+//   NOG NIET KUNNEN AFRONDEN
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
