@@ -7,7 +7,6 @@ function morningGreeter() {
 }
 
 const greeting = morningGreeter();
-
 console.log(greeting);
 
 /* Opdracht 1 */
@@ -19,7 +18,6 @@ function getSchool() {
 }
 
 const school = getSchool()
-
 console.log(school);
 
 /* Opdracht 2 */
@@ -30,7 +28,6 @@ function compliment() {
   return "Lekker bezig met die functies, Jan!"
 }
 const goodJob = compliment();
-
 console.log(goodJob);
 
 
@@ -43,13 +40,11 @@ function getGrades(){
 }
 
 const grade=getGrades();
-
 console.log(grade);
 
 /* Opdracht 4 */
 // Schrijf een functie genaamd getDetails, die een object met daarin jouw eigen naam en achternaam teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: { firstName: 'Jan', lastName: 'Janssen' }
-
 
 function getDetails() {
   return { firstName: 'Jan', lastName: 'Janssen'};
@@ -64,13 +59,11 @@ const detailsObject = {
   firstName: 'Jan',
   LastName: 'Janssen',
 }
-
 function getDetailsAgain() {
   return detailsObject
 }
 
 const detailsAgain = getDetailsAgain();
 console.log(detailsAgain)
-
 
 // ignore. nodig voor nieuwe commit //
