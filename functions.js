@@ -2,6 +2,7 @@
 // Schrijf een functie die de string "Goedemorgen" teruggeeft
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Goedemorgen"
 
+/**/
 function morningGreeter() {
   return "Goedemorgen";
 }
