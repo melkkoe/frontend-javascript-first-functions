@@ -17,12 +17,12 @@ console.log(result);
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
-function greeter (a, b) {
-  return [a, b];
+function greeter (a) {
+  return 'Hoi' + ' '+ a;
 }
 
-const name = greeter('Jan', 'Kees');
-console.log('Hoi'+' '+ name+ '!')
+const name = greeter('Jan');
+console.log(name+ '!')
 
 
 /* Opdracht 2 */
@@ -69,14 +69,14 @@ console.log(mergedWord);
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
 
 function calculateDogYears(a){
-  return a * 7;
+  return 'Jouw hond is'+ ' '+a * 7+' '+ 'jaar oud in mensenjaren';
 }
 
-const dogYear = calculateDogYears(6);
+const dogYear = calculateDogYears(7);
 
 /*const dogYear = calculateDogYears(2);*/
 
-console.log('Jouw hond is'+' '+dogYear+' '+'jaar oud in mensenjaren');
+console.log(dogYear);
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
@@ -104,12 +104,10 @@ console.log(wrappedWord)
 // createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}) geeft "Het beroep vam Kees Klaasen is brandweerman."
 
 
-/*NIET AF KUNNEN RONDEN*/
 
 function createDetailString({firstName, lastName, profession}){
-  return firstName, lastName, profession;
+  return 'Het beroep van'+' '+ firstName+' '+ lastName+ " "+'is'+' '+ profession;
 }
 
   const bonus = createDetailString({firstName: 'Jan', lastName: 'Janssen', profession: 'docent'});
-
-console.log('Het beroep van'+' '+ bonus+ ' '+ 'is');
+  console.log(bonus);
